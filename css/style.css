@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(248, 234, 234),rgb(98, 117, 200));
+
+}
+.logo {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+h1{
+    margin-top: -12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container {
+    max-width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    border-radius: 13px;
+}
+
+.message {
+    background-color: rgb(41, 39, 39);
+    width: 24%;
+    padding: 7px;
+    margin: 10Px 12px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 12px;
+    color:white;
+    
+}
+
+.left {
+    float: left;
+    clear: both;
+
+
+}
+
+.right {
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    max-width:830px ;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+#messageInp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    border-radius: 6px;
+    border: 6px;
+    height: 29px;
+    border: 2px solid rgb(20, 19, 19);
+    font-size:14px;
+    
+}
+.btn{
+    width: 8%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px ;
+    height: 32px;
+}
+@media only screen and (max-width: 600px) {
+    .btn{
+        width: 10%;
+    }
+  }
+  @media only screen and (max-width:450px) {
+    .btn{
+        width: 12%;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .btn{
+        width: 14%;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .btn{
+        width: 16%;
+    }
+#messageInp{
+ width: 70%;
+  }
+}
+@media only screen and (max-width: 250px) {
+    .btn{
+        width: 18%;
+    }
+#messageInp{
+ width: 60%;
+  }
+}
